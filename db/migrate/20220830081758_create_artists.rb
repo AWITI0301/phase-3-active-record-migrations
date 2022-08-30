@@ -7,6 +7,4 @@ class CreateArtists < ActiveRecord::Migration[6.1]
       t.string :hometown
     end  
   end
-  def down
-    remove_column :favorite_food
 end
